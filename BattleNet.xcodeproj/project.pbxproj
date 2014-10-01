@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530A32C0192660A300834AA9 /* acmilan.png in Resources */ = {isa = PBXBuildFile; fileRef = 530A32BF192660A300834AA9 /* acmilan.png */; };
+		530A350C19371105004EA0C0 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530A350B19371105004EA0C0 /* MeViewController.m */; };
+		530A350F193714D1004EA0C0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530A350E193714D1004EA0C0 /* LoginViewController.m */; };
+		538C8EAF193DCF27007478D6 /* SignupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C8EAE193DCF27007478D6 /* SignupTableViewController.m */; };
+		538C8EB2193F5FD5007478D6 /* SexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C8EB1193F5FD5007478D6 /* SexViewController.m */; };
+		538C8EB5193F5FF0007478D6 /* PositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C8EB4193F5FF0007478D6 /* PositionViewController.m */; };
+		538C8EB8193F600A007478D6 /* FootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C8EB7193F600A007478D6 /* FootViewController.m */; };
+		538C8EBB193F6038007478D6 /* BirthdayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C8EBA193F6038007478D6 /* BirthdayViewController.m */; };
 		53F4BC49192622FB0080FC9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F4BC48192622FB0080FC9C /* Foundation.framework */; };
 		53F4BC4B192622FB0080FC9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F4BC4A192622FB0080FC9C /* CoreGraphics.framework */; };
 		53F4BC4D192622FB0080FC9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F4BC4C192622FB0080FC9C /* UIKit.framework */; };
@@ -22,6 +30,18 @@
 		53F4BC6D192622FB0080FC9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F4BC4C192622FB0080FC9C /* UIKit.framework */; };
 		53F4BC75192622FB0080FC9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53F4BC73192622FB0080FC9C /* InfoPlist.strings */; };
 		53F4BC77192622FB0080FC9C /* BattleNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F4BC76192622FB0080FC9C /* BattleNetTests.m */; };
+		B5DF8C9AC7AA418A9132A196 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8994743BF9934551A8591692 /* libPods.a */; };
+		E71210CC19D5CD63001E1FDD /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = E71210CB19D5CD63001E1FDD /* player.png */; };
+		E71210CF19D66B26001E1FDD /* AvatarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71210CE19D66B26001E1FDD /* AvatarViewController.m */; };
+		E71210D219D68C31001E1FDD /* AlbumContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71210D119D68C31001E1FDD /* AlbumContentsViewController.m */; };
+		E71210D519D6F47C001E1FDD /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71210D419D6F47C001E1FDD /* VPImageCropperViewController.m */; };
+		E71210D719D72362001E1FDD /* default_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = E71210D619D72362001E1FDD /* default_avatar.png */; };
+		E71210DA19D8112B001E1FDD /* MatchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71210D919D8112B001E1FDD /* MatchListViewController.m */; };
+		E71210DE19D85B01001E1FDD /* CreateMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71210DD19D85B01001E1FDD /* CreateMatchViewController.m */; };
+		E71210E119D961C7001E1FDD /* MatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E71210E019D961C7001E1FDD /* MatchManager.m */; };
+		E71210E419D96242001E1FDD /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = E71210E319D96242001E1FDD /* Match.m */; };
+		E7B6ABC419C993E40000EBA2 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B6ABC319C993E40000EBA2 /* UserManager.m */; };
+		E7E6FDBB19BF479B00AD086E /* BNUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6FDBA19BF479B00AD086E /* BNUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		530A32BF192660A300834AA9 /* acmilan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = acmilan.png; path = Images.xcassets/acmilan.png; sourceTree = "<group>"; };
+		530A350A19371105004EA0C0 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = users/MeViewController.h; sourceTree = "<group>"; };
+		530A350B19371105004EA0C0 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = users/MeViewController.m; sourceTree = "<group>"; };
+		530A350D193714D1004EA0C0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = users/LoginViewController.h; sourceTree = "<group>"; };
+		530A350E193714D1004EA0C0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = users/LoginViewController.m; sourceTree = "<group>"; };
+		538C8EAD193DCF27007478D6 /* SignupTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupTableViewController.h; path = users/SignupTableViewController.h; sourceTree = "<group>"; };
+		538C8EAE193DCF27007478D6 /* SignupTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupTableViewController.m; path = users/SignupTableViewController.m; sourceTree = "<group>"; };
+		538C8EB0193F5FD5007478D6 /* SexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SexViewController.h; path = users/SexViewController.h; sourceTree = "<group>"; };
+		538C8EB1193F5FD5007478D6 /* SexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SexViewController.m; path = users/SexViewController.m; sourceTree = "<group>"; };
+		538C8EB3193F5FF0007478D6 /* PositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PositionViewController.h; path = users/PositionViewController.h; sourceTree = "<group>"; };
+		538C8EB4193F5FF0007478D6 /* PositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PositionViewController.m; path = users/PositionViewController.m; sourceTree = "<group>"; };
+		538C8EB6193F600A007478D6 /* FootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FootViewController.h; path = users/FootViewController.h; sourceTree = "<group>"; };
+		538C8EB7193F600A007478D6 /* FootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FootViewController.m; path = users/FootViewController.m; sourceTree = "<group>"; };
+		538C8EB9193F6038007478D6 /* BirthdayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirthdayViewController.h; path = users/BirthdayViewController.h; sourceTree = "<group>"; };
+		538C8EBA193F6038007478D6 /* BirthdayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BirthdayViewController.m; path = users/BirthdayViewController.m; sourceTree = "<group>"; };
 		53F4BC45192622FB0080FC9C /* BattleNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F4BC48192622FB0080FC9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		53F4BC4A192622FB0080FC9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +91,28 @@
 		53F4BC72192622FB0080FC9C /* BattleNetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BattleNetTests-Info.plist"; sourceTree = "<group>"; };
 		53F4BC74192622FB0080FC9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53F4BC76192622FB0080FC9C /* BattleNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattleNetTests.m; sourceTree = "<group>"; };
+		8994743BF9934551A8591692 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA400099B792489A89130D05 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E71210CB19D5CD63001E1FDD /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = resources/images/player.png; sourceTree = "<group>"; };
+		E71210CD19D66B26001E1FDD /* AvatarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AvatarViewController.h; path = users/AvatarViewController.h; sourceTree = "<group>"; };
+		E71210CE19D66B26001E1FDD /* AvatarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AvatarViewController.m; path = users/AvatarViewController.m; sourceTree = "<group>"; };
+		E71210D019D68C31001E1FDD /* AlbumContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlbumContentsViewController.h; path = users/AlbumContentsViewController.h; sourceTree = "<group>"; };
+		E71210D119D68C31001E1FDD /* AlbumContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlbumContentsViewController.m; path = users/AlbumContentsViewController.m; sourceTree = "<group>"; };
+		E71210D319D6F47C001E1FDD /* VPImageCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VPImageCropperViewController.h; path = users/VPImageCropperViewController.h; sourceTree = "<group>"; };
+		E71210D419D6F47C001E1FDD /* VPImageCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VPImageCropperViewController.m; path = users/VPImageCropperViewController.m; sourceTree = "<group>"; };
+		E71210D619D72362001E1FDD /* default_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_avatar.png; path = resources/images/default_avatar.png; sourceTree = "<group>"; };
+		E71210D819D8112B001E1FDD /* MatchListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchListViewController.h; path = match/MatchListViewController.h; sourceTree = "<group>"; };
+		E71210D919D8112B001E1FDD /* MatchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchListViewController.m; path = match/MatchListViewController.m; sourceTree = "<group>"; };
+		E71210DC19D85B01001E1FDD /* CreateMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateMatchViewController.h; path = match/CreateMatchViewController.h; sourceTree = "<group>"; };
+		E71210DD19D85B01001E1FDD /* CreateMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateMatchViewController.m; path = match/CreateMatchViewController.m; sourceTree = "<group>"; };
+		E71210DF19D961C7001E1FDD /* MatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchManager.h; path = match/MatchManager.h; sourceTree = "<group>"; };
+		E71210E019D961C7001E1FDD /* MatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchManager.m; path = match/MatchManager.m; sourceTree = "<group>"; };
+		E71210E219D96242001E1FDD /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Match.h; path = data/Match.h; sourceTree = "<group>"; };
+		E71210E319D96242001E1FDD /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Match.m; path = data/Match.m; sourceTree = "<group>"; };
+		E7B6ABC219C993E40000EBA2 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserManager.h; path = users/UserManager.h; sourceTree = "<group>"; };
+		E7B6ABC319C993E40000EBA2 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserManager.m; path = users/UserManager.m; sourceTree = "<group>"; };
+		E7E6FDB919BF479B00AD086E /* BNUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNUser.h; path = data/BNUser.h; sourceTree = "<group>"; };
+		E7E6FDBA19BF479B00AD086E /* BNUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNUser.m; path = data/BNUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +123,7 @@
 				53F4BC4B192622FB0080FC9C /* CoreGraphics.framework in Frameworks */,
 				53F4BC4D192622FB0080FC9C /* UIKit.framework in Frameworks */,
 				53F4BC49192622FB0080FC9C /* Foundation.framework in Frameworks */,
+				B5DF8C9AC7AA418A9132A196 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +147,7 @@
 				53F4BC70192622FB0080FC9C /* BattleNetTests */,
 				53F4BC47192622FB0080FC9C /* Frameworks */,
 				53F4BC46192622FB0080FC9C /* Products */,
+				AA400099B792489A89130D05 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +167,7 @@
 				53F4BC4A192622FB0080FC9C /* CoreGraphics.framework */,
 				53F4BC4C192622FB0080FC9C /* UIKit.framework */,
 				53F4BC6A192622FB0080FC9C /* XCTest.framework */,
+				8994743BF9934551A8591692 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +175,9 @@
 		53F4BC4E192622FB0080FC9C /* BattleNet */ = {
 			isa = PBXGroup;
 			children = (
+				E71210DB19D81133001E1FDD /* Match */,
+				E7E6FDB819BF474800AD086E /* Data */,
+				E7E6FDB719BED77100AD086E /* User */,
 				53F4BC57192622FB0080FC9C /* AppDelegate.h */,
 				53F4BC58192622FB0080FC9C /* AppDelegate.m */,
 				53F4BC5A192622FB0080FC9C /* Main.storyboard */,
@@ -123,6 +186,8 @@
 				53F4BC60192622FB0080FC9C /* SecondViewController.h */,
 				53F4BC61192622FB0080FC9C /* SecondViewController.m */,
 				53F4BC63192622FB0080FC9C /* Images.xcassets */,
+				530A32BF192660A300834AA9 /* acmilan.png */,
+				E71210CA19D5CD23001E1FDD /* Resources */,
 				53F4BC4F192622FB0080FC9C /* Supporting Files */,
 			);
 			path = BattleNet;
@@ -157,6 +222,68 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E71210CA19D5CD23001E1FDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E71210D619D72362001E1FDD /* default_avatar.png */,
+				E71210CB19D5CD63001E1FDD /* player.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E71210DB19D81133001E1FDD /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				E71210D819D8112B001E1FDD /* MatchListViewController.h */,
+				E71210D919D8112B001E1FDD /* MatchListViewController.m */,
+				E71210DC19D85B01001E1FDD /* CreateMatchViewController.h */,
+				E71210DD19D85B01001E1FDD /* CreateMatchViewController.m */,
+				E71210DF19D961C7001E1FDD /* MatchManager.h */,
+				E71210E019D961C7001E1FDD /* MatchManager.m */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
+		E7E6FDB719BED77100AD086E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E71210D319D6F47C001E1FDD /* VPImageCropperViewController.h */,
+				E71210D419D6F47C001E1FDD /* VPImageCropperViewController.m */,
+				E71210D019D68C31001E1FDD /* AlbumContentsViewController.h */,
+				E71210D119D68C31001E1FDD /* AlbumContentsViewController.m */,
+				530A350A19371105004EA0C0 /* MeViewController.h */,
+				530A350B19371105004EA0C0 /* MeViewController.m */,
+				530A350D193714D1004EA0C0 /* LoginViewController.h */,
+				530A350E193714D1004EA0C0 /* LoginViewController.m */,
+				538C8EB9193F6038007478D6 /* BirthdayViewController.h */,
+				538C8EBA193F6038007478D6 /* BirthdayViewController.m */,
+				538C8EB0193F5FD5007478D6 /* SexViewController.h */,
+				538C8EB1193F5FD5007478D6 /* SexViewController.m */,
+				538C8EB3193F5FF0007478D6 /* PositionViewController.h */,
+				E71210CD19D66B26001E1FDD /* AvatarViewController.h */,
+				E71210CE19D66B26001E1FDD /* AvatarViewController.m */,
+				538C8EB4193F5FF0007478D6 /* PositionViewController.m */,
+				538C8EB6193F600A007478D6 /* FootViewController.h */,
+				538C8EB7193F600A007478D6 /* FootViewController.m */,
+				538C8EAD193DCF27007478D6 /* SignupTableViewController.h */,
+				538C8EAE193DCF27007478D6 /* SignupTableViewController.m */,
+				E7B6ABC219C993E40000EBA2 /* UserManager.h */,
+				E7B6ABC319C993E40000EBA2 /* UserManager.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		E7E6FDB819BF474800AD086E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E7E6FDB919BF479B00AD086E /* BNUser.h */,
+				E7E6FDBA19BF479B00AD086E /* BNUser.m */,
+				E71210E219D96242001E1FDD /* Match.h */,
+				E71210E319D96242001E1FDD /* Match.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53F4BC7A192622FB0080FC9C /* Build configuration list for PBXNativeTarget "BattleNet" */;
 			buildPhases = (
+				0CDD6E4F87614C548503A445 /* Check Pods Manifest.lock */,
 				53F4BC41192622FB0080FC9C /* Sources */,
 				53F4BC42192622FB0080FC9C /* Frameworks */,
 				53F4BC43192622FB0080FC9C /* Resources */,
+				E7C6A759CE9E422BA4AD815F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,8 +363,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				53F4BC64192622FB0080FC9C /* Images.xcassets in Resources */,
+				E71210CC19D5CD63001E1FDD /* player.png in Resources */,
 				53F4BC53192622FB0080FC9C /* InfoPlist.strings in Resources */,
 				53F4BC5C192622FB0080FC9C /* Main.storyboard in Resources */,
+				E71210D719D72362001E1FDD /* default_avatar.png in Resources */,
+				530A32C0192660A300834AA9 /* acmilan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,15 +381,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CDD6E4F87614C548503A445 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C6A759CE9E422BA4AD815F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		53F4BC41192622FB0080FC9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B6ABC419C993E40000EBA2 /* UserManager.m in Sources */,
 				53F4BC62192622FB0080FC9C /* SecondViewController.m in Sources */,
 				53F4BC59192622FB0080FC9C /* AppDelegate.m in Sources */,
+				E71210E419D96242001E1FDD /* Match.m in Sources */,
+				538C8EB8193F600A007478D6 /* FootViewController.m in Sources */,
+				538C8EAF193DCF27007478D6 /* SignupTableViewController.m in Sources */,
+				E71210E119D961C7001E1FDD /* MatchManager.m in Sources */,
+				530A350F193714D1004EA0C0 /* LoginViewController.m in Sources */,
 				53F4BC5F192622FB0080FC9C /* FirstViewController.m in Sources */,
+				538C8EB2193F5FD5007478D6 /* SexViewController.m in Sources */,
 				53F4BC55192622FB0080FC9C /* main.m in Sources */,
+				530A350C19371105004EA0C0 /* MeViewController.m in Sources */,
+				E71210DE19D85B01001E1FDD /* CreateMatchViewController.m in Sources */,
+				538C8EB5193F5FF0007478D6 /* PositionViewController.m in Sources */,
+				E7E6FDBB19BF479B00AD086E /* BNUser.m in Sources */,
+				E71210DA19D8112B001E1FDD /* MatchListViewController.m in Sources */,
+				E71210D519D6F47C001E1FDD /* VPImageCropperViewController.m in Sources */,
+				538C8EBB193F6038007478D6 /* BirthdayViewController.m in Sources */,
+				E71210CF19D66B26001E1FDD /* AvatarViewController.m in Sources */,
+				E71210D219D68C31001E1FDD /* AlbumContentsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +560,7 @@
 		};
 		53F4BC7B192622FB0080FC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA400099B792489A89130D05 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -392,6 +574,7 @@
 		};
 		53F4BC7C192622FB0080FC9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA400099B792489A89130D05 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -462,6 +645,7 @@
 				53F4BC7C192622FB0080FC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53F4BC7D192622FB0080FC9C /* Build configuration list for PBXNativeTarget "BattleNetTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +654,7 @@
 				53F4BC7F192622FB0080FC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
